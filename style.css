@@ -101,12 +101,18 @@ header {
 .nav-bar ul li a:hover{
 	color: navy;
 }
- .nav-bar ul.fa{
+ .nav-bar ul.fa-bars{
        position: absolute;
        top: 25px;
        left: 25px;
        cursor: pointer;
  }
+ .nav-bar ul .fa-times {
+ 	position: absolute;
+ 	top: 9px;
+ 	right: 14px;
+ }
+
 }
 /*----section-one-----*/
 .section-one {
@@ -186,9 +192,9 @@ header {
 	.para-flex {
 		padding-top: 23px;
 	}
-	/*.section-one{
-		height: 301px;
-	}*/
+	.section-one{
+		height: 306px;
+	}
 }
 /*---section-two----*/
 .section-two {
@@ -282,12 +288,12 @@ header {
 		text-align: center;
 	}
 	.section-two{
-		height: 508px;
+		height: 508px !important;
 	}
 }
 @media only screen and (max-width: 768px){
 	 .section-two {
-
+         height: 314px;
 	 }
 	 .lenth-para p{
 	 	font-size: 12px;
@@ -449,7 +455,7 @@ header {
 .add-cart h1 {
 	font-size: 16px;
 	color: white;
-}
+} 
 .arrow-icon {
    margin-left: 15px;
 }
@@ -576,7 +582,47 @@ header {
 		display: none;
 	}
 	.section-four{
-		height: 828px;
+		height: 980px !important;
+	}
+	
+}
+@media only screen and (max-width: 768px){
+	.flowerpot-one {
+		width: 75%;
+		height: 207px;
+	}
+	
+	.flowerpot-two {
+		width: 75%;
+		height: 207px;
+	}
+	.flowerpot-three {
+		width: 75%;
+		height: 207px;
+	}
+	.flowerpot-four {
+		width: 75%;
+		height: 207px;
+	}
+	.flowerpot-five {
+		width: 75%;
+		height: 207px;
+	}
+	.flowerpot-six {
+		width: 75%;
+		height: 207px;
+	}
+	.flowerpot-seven{
+		width: 75%;
+		height: 207px;
+	}
+	.flowerpot-eight {
+		width: 75%;
+		height: 207px;
+	}
+	.flowerpot-nine{
+		width: 75%;
+		height: 207px;
 	}
 	
 }
@@ -671,6 +717,10 @@ header {
 		display: block;
 	}
 	.star-flex{
+		width: 78% !important;
+		height: 203px !important;
+	}
+	.star-flex{
 		width: 80%;
 		margin: auto;
 		margin-bottom: 25px;
@@ -686,7 +736,16 @@ header {
 		justify-content: center;
 	}
 	.section-five{
-		height: 835px;
+		height: 768px !important;
+	}
+}
+@media only screen and (max-width: 768px){
+	.star-flex {
+		width: 29%;
+		height: 252px;
+	}
+	.section-five{
+		height: 370px;
 	}
 }
 /*------section-six-----*/
@@ -829,6 +888,7 @@ header {
  .quick-links h1 {
       font-size: 18px;
       font-family: sans-serif;
+      color:  cadetblue;
  } 
  .all-text{
  	line-height: 1.5em;
@@ -844,6 +904,7 @@ header {
  .extra-links h1{
  	font-size: 18px;
     font-family: sans-serif;
+    color:  cadetblue;
  }
  .locations {
  	padding-bottom: 10px;
@@ -852,6 +913,7 @@ header {
  .locations h1{
  	font-size: 18px;
     font-family: sans-serif;
+    color:  cadetblue;
  }
  .contact-info {
  	padding-bottom: 10px;
@@ -859,19 +921,20 @@ header {
  .contact-info h1{
  	font-size: 18px;
     font-family: sans-serif;
+    color: cadetblue;
  }
  .created{
  	text-align: center;
  	padding-top: 20px;
  }
  .created p {
- 	font-size: 14px;
+ 	font-size: 12px;
     font-family: sans-serif;
     color: gray;
  }
  .designer {
  	color: aliceblue;
- 	font-size: 16px;
+ 	font-size: 14px;
  }
  @media only screen and (max-width: 480px){
  	.footer-flex{
@@ -900,4 +963,12 @@ header {
  	 .footer-flex {
  	 	padding-bottom: 11px;
  	 }
+ 	 .footer{
+ 	 	height: 594px !important;
+ 	 }
+ }
+ @media only screen and (max-width: 768px){
+ 	.footer{
+ 		height: 277px;
+ 	}
  }
